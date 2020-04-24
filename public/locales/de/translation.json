@@ -1,0 +1,14 @@
+{
+  "title" : "Kryptowährungsangebot sofort",
+  "resultado": {
+    "precio": "Der Preis ist: ",
+    "precioAlto": "Der höchste Preis des Tages ist: ",
+    "precioBajo": "Der niedrigste Preis des Tages ist: ",
+    "variacion": "Variation in den letzten 24 Stunden: ",
+    "update": "Letzte Aktualisierung: "
+  },
+  "form": {
+    "moneda": "EWählen Sie Ihre Währung",
+    "cripto": "Wählen Sie Ihre Kryptowährung"
+  }
+}

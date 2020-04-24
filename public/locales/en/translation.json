@@ -1,0 +1,14 @@
+{
+  "title" : "Cryptocurrency quote instantly",
+  "resultado": {
+    "precio": "The price is: ",
+    "precioAlto": "The higher price on the day is: ",
+    "precioBajo": "The lower price on the day is: ",
+    "variacion": "Variation on the last 24 hours: ",
+    "update": "Last update: "
+  },
+  "form": {
+    "moneda": "Choose your coin",
+    "cripto": "Choose your CryptoCoin"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title" : "Cotización de criptomonedas al instante",
+  "resultado": {
+    "precio": "El precio es: ",
+    "precioAlto": "El precio mas alto del dia es: ",
+    "precioBajo": "El precio mas bajo del dia es: ",
+    "variacion": "Variación en las ultimas 24 horas: ",
+    "update": "Ultima actualización: "
+  },
+  "form": {
+    "moneda": "Elija su moneda",
+    "cripto": "Elija su criptomoneda"
+  }
+}
