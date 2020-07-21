@@ -32,7 +32,7 @@ const useCrypto = (stateInicial, monedas) => {
   const SelectCrypto = () => {
     return(
       <Fragment>
-        <Label>{t('form.moneda')}</Label>
+        <Label>{t('form.cripto')}</Label>
         <Select
           onChange={e => setState(e.target.value)}
           value={state}

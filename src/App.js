@@ -66,7 +66,7 @@ function App() {
   const [cargando, setCargando] = useState(false);
 
   useEffect(()=>{
-    const cotizarCriptomoneda = async () => {
+    const cotizarCriptomoneda = (async () => {
       //evitamos la ejecución de la 1ra vez
       if(monedasMain==='') return;
       //consultar la API para cotizar
@@ -76,9 +76,9 @@ function App() {
       setTimeout(()=>{
         setCargando(false);
         setResultado(resultado.data.DISPLAY[cryptoMain][monedasMain])
-      }, 3000);
-    }
-    cotizarCriptomoneda()
+        console.log(resultado.data)
+      }, 2000);
+    })()
   }, [monedasMain, cryptoMain])
 
   return (

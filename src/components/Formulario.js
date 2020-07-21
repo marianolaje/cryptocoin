@@ -48,10 +48,10 @@ const Formulario = ({setMonedasMain, setCryptoMain}) => {
   const [listaCripto, setListaCripto] = useState([])
 
 //utilizando useCoin
-  const [moneda, SelecMoneda] = useCoin('', MONEDAS)
+  const [moneda, SelecMoneda] = useCoin('Euro', MONEDAS)
 
 //utilizar useCrypto
-  const [crypto, SelectCrypto] = useCrypto('', listaCripto)
+  const [crypto, SelectCrypto] = useCrypto('Bitcoin', listaCripto)
 
 //validador de Formulario
   const [error, setError] = useState(false)
